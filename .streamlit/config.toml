@@ -1,0 +1,25 @@
+
+[theme]
+primaryColor="#d8d2c2"
+backgroundColor="#faf7f0"
+secondaryBackgroundColor="#b17457"
+textColor="#4a4947"
+font="monospace"
+
+[server]
+# Enable this to show the menu
+enableCORSForAllOrigins = false
+enableXsrfProtection = false
+
+[browser]
+# Default page title
+serverAddress = "localhost"
+serverPort = 8501
+gatherUsageStats = false
+
+[deprecation]
+showfileUploaderEncoding = false
+
+[global]
+# Hide Streamlit menu and footer
+showSidebarNavigation = false
