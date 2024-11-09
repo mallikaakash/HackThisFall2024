@@ -1,1 +1,8 @@
-./.streamlit/secrets.toml
+# Correct way to ignore secrets.toml
+.streamlit/secrets.toml
+
+# You might also want to add these common Streamlit-related files
+.streamlit/config.toml
+__pycache__/
+*.pyc
+.env
